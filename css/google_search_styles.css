@@ -116,11 +116,23 @@ body {
 }
 
 .input-icon {
-    height: 2.8rem;
+    display: inline-block;
     width: 2.8rem;
+    height: 2.8rem;
     cursor: pointer;
+    text-decoration: none;
+    color: #000; 
 }
 
+.input-icon ion-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.input-icon:visited {
+    width: 100%;
+    height: 100%;
+}
 
 .search-buttons {
     text-align: center;
