@@ -15,6 +15,27 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
+/* STRIPES */
+
+.stripe {
+    width: 100%;
+    height:0.3rem;
+    background-color: #f2f2f2;
+}
+
+.stripe-one {
+    position: absolute;
+    top: 20%;
+}
+
+.stripe-two {
+    position: absolute;
+    top: 70%;
+}
+
+/* STRIPES END */
+
 /* NAV */
 
 .nav {
