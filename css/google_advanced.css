@@ -14,3 +14,51 @@ html {
 body {
     font-family: "Roboto", sans-serif;
 }
+
+/* NAV */
+
+.nav {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    font-size: 1.6rem;
+}
+
+.nav-link:active, .nav-link:link {
+    text-decoration: none;
+    color: #333;
+    padding-right: 2rem;
+}
+.nav-link:visited {
+    text-decoration: none;
+    color: #333;
+    padding-right: 2rem;
+}
+
+.nav h3 {
+    font-size: 2.4rem;
+}
+
+.nav h3 span:nth-child(1) {
+    color: #4285F4; 
+}
+.nav h3 span:nth-child(2) {
+    color: #EA4335;
+}
+.nav h3 span:nth-child(3) {
+    color: #FBBC05;
+}
+.nav h3 span:nth-child(4) {
+    color: #4285F4; 
+}
+.nav h3 span:nth-child(5) {
+    color: #34A853; 
+}
+.nav h3 span:nth-child(6) {
+    color: #EA4335; 
+}
+
+
