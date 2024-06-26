@@ -54,7 +54,7 @@ body {
 .main-search h1 {
     font-size: 9.6rem;
     letter-spacing: 5px;
-    margin-bottom: 2.4rem;
+    margin-bottom: 3.2rem;
     text-align: center;
 }
 
@@ -102,16 +102,15 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 3.2rem;
 }
 
 .input-field {
     width: 55rem;
     height: 4rem;
 
+    border: 2px solid #ccc; 
     border-radius: 2rem;
-    border-color: #ddd;
-    border-width: 1px;
     padding: 0 1.6rem;
     font-size: 1.8rem;
 }
@@ -136,14 +135,16 @@ body {
     border: none;
 }
 
-.search-buttons a:visited, .search-buttons a:link {
+.search-buttons a:active, .search-buttons a:link {
     display: inline-block;
     font-size: 1.6rem;
     padding: 1rem 1rem;
     text-decoration: none;
     color: #333;
 }
-
+.search-buttons a:visited {
+    color: #333;
+} 
 .search-info {
     text-align: center;
     font-size: 1.6rem;
@@ -162,10 +163,26 @@ body {
 /* FOOTER */
 
 .footer {
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: 0.1rem;
+    background-color: #f2f2f2;
 
     display: flex;
     justify-content: space-between;
+}
+
+.footer-div {
+    padding: 1.6rem 3.6rem;
+    font-size: 1.4rem;
+    display: flex;
+    gap: 3.1rem;
+}
+.footer-link:active, .footer-link:link {
+    text-decoration: none;
+    color: black;
+}
+.footer-link:visited {
+    color: black;
 }
