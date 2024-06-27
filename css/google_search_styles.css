@@ -104,6 +104,10 @@ body {
     gap: 2rem;
     margin-bottom: 3.2rem;
 }
+.search-btn {
+    border: none;
+    background: none;
+}
 
 .input-field {
     width: 55rem;
