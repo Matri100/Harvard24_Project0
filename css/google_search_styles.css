@@ -145,18 +145,12 @@ body {
 
 .search-buttons button {
     border: none;
-}
-
-.search-buttons a:active, .search-buttons a:link {
-    display: inline-block;
     font-size: 1.6rem;
     padding: 1rem 1rem;
     text-decoration: none;
     color: #333;
 }
-.search-buttons a:visited {
-    color: #333;
-} 
+
 .search-info {
     text-align: center;
     font-size: 1.6rem;
