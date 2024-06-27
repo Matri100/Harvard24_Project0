@@ -195,9 +195,14 @@ body {
     margin-bottom: 4rem;
 }
 
+
+
 .btn-adv {
-    margin-left: 66rem;
+    grid-column: 2;
+    width: 25%;
+    justify-self: right;
     padding: 1rem 1.5rem;
+    margin-right: 1em;
     font-size: 1.2rem;
     font-weight: 600;
     background-color:#4285F4;
@@ -205,3 +210,39 @@ body {
     border: none;
     cursor: pointer;
 }
+
+/* FORM TWO END */
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -50%;
+    background-color: #f2f2f2;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-div {
+    padding: 1.6rem 3.6rem;
+    font-size: 1.4rem;
+    display: flex;
+    gap: 3.1rem;
+}
+.footer-link:active, .footer-link:link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: all 0s;
+}
+.footer-link:visited {
+    color: black;
+}
+
+.footer-link:hover {
+    border-bottom: 1px solid black;
+}
+
+/* FOOTER END */
