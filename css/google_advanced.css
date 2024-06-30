@@ -192,6 +192,21 @@ body {
     box-shadow: 0 0 3px lightblue;
 }
 
+.form-narrow select{
+    padding: 0.4rem;
+    margin-right: 1rem;
+    border: 2px solid #ccc; 
+    outline: none;
+    background-color: #f5f5f5;
+}
+.form-narrow select:focus{
+    padding: 0.4rem;
+    margin-right: 1rem;
+    border: 2px solid #ccc; 
+    outline: none;
+    background-color: #f5f5f5;
+}
+
 .last-form-narrow {
     margin-bottom: 4rem;
 }
